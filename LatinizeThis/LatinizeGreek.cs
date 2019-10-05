@@ -32,6 +32,13 @@ namespace LatinizeThis
             { "χ", "ch"},
             { "ψ", "ps"},
             { "ω", "o"},
+            { "ά", "a"},
+            { "έ", "e"},
+            { "ή", "i"},
+            { "ί", "i"},
+            { "ό", "o"},
+            { "ύ", "u"},
+            { "ώ", "o"}
         };
 
         public static string GetLatinizedChar(string ch)

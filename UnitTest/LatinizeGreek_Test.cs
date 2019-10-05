@@ -10,8 +10,8 @@ namespace UnitTest
         [TestMethod]
         public void Test()
         {
-            var text = "αβγδεζηθικλμνξοπρστυφχψω";
-            var expected = "abgdezithiklmnksoprstufchpso";
+            var text = "αβγδεζηθικλμνξοπρστυφχψωάέίήόώ";
+            var expected = "abgdezithiklmnksoprstufchpsoaeiioo";
             var latinized = LatinizeGreek.FromGreek(text);
             Assert.AreEqual(latinized, expected);
         }
